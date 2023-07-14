@@ -11,9 +11,9 @@ module.exports = {
 				use: [
 					MiniCSSExtractPlugin.loader,
 					"css-loader"
-				], 
-			},
-		],
+				] 
+			}
+		]
 	},
 	plugins: [
 		new HtmlWebpackPlugin ({
@@ -21,5 +21,5 @@ module.exports = {
 			filename: 'main.html'
 		}),
 		new MiniCSSExtractPlugin(),
-	],
-};
+	]
+}
